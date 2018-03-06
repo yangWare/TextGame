@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import MainPage from '@/views/mainPage'
+import UserInfo from '@/views/userInfo'
 
 Vue.use(Router)
 
@@ -9,7 +9,7 @@ export default new Router({
     {
       path: '/',
       name: '主页',
-      component: MainPage
+      component: UserInfo
     }
   ]
 })
